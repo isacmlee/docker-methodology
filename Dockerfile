@@ -25,7 +25,7 @@ RUN apt-get -y install nmap
 RUN apt-get -y install traceroute 
 
 # 3) install packages using notebook user
-USER isaclee
+USER jovyan
 
 # RUN conda install -y scikit-learn
 
